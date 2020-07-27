@@ -74,6 +74,7 @@ namespace AccuracyProgram
         public MainForm()
         {
             InitializeComponent();
+            xDataFlag = true;
         }
 
         private void portOpen_Click(object sender, EventArgs e)
